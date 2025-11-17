@@ -1,0 +1,29 @@
+[project]
+name = "functionflow"
+version = "0.1.0"
+description = "Interactive Python call-graph explorer for instantly visualizing complex codebases."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "FunctionFlow Contributors"}
+]
+dependencies = [
+    "typer>=0.12",
+    "rich>=13.7",
+    "networkx>=3.1",
+    "pyvis>=0.3",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourname/functionflow"
+Repository = "https://github.com/yourname/functionflow"
+Issues = "https://github.com/yourname/functionflow/issues"
+
+[project.scripts]
+functionflow = "functionflow.cli:app"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
