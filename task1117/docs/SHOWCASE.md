@@ -5,7 +5,7 @@ This walkthrough helps your GitHub visitors grok FunctionFlow in under a minute.
 ## 1. Clone + Install
 
 ```bash
-git clone https://github.com/yourname/functionflow
+git clone https://github.com/OliverZ-dot/FunctionFlow
 cd functionflow
 pip install -e .
 ```
@@ -46,4 +46,5 @@ Check `docs/artifacts` into git so visitors can view the HTML/Markdown without r
 - Ask maintainers to run `functionflow map` on their codebase and share the hotspots.
 
 Happy exploring! If this accelerates your architecture decisions, smash that ⭐️.
+
 
